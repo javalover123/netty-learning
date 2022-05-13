@@ -56,8 +56,7 @@ public class DBFComponet {
 
 	/**
 	 * 
-	 * @param path
-	 * @param updateList
+	 * @param packet
 	 */
 	public static void writeDBF(IPacket packet) {
 		String securityId = packet.getSecurityId();
@@ -76,13 +75,11 @@ public class DBFComponet {
 	}
 
 	/**
-	 * @Func 写入DBF
-	 * @param quotationList
-	 * @param path
-	 * @param charset
+	 * 写入DBF
+	 *
+	 * @param snapshotList
 	 * @throws DBFException
 	 */
-
 	public static void writeSJSHQDBF(List<IPacket> snapshotList) throws DBFException {
 		try {
 			writer.updateOneRecord(generateFirstRow(), 0);
