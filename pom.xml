@@ -18,8 +18,8 @@
         <module>netty-hello-world</module>
         <module>netty-http-server</module>
         <module>netty-group-chat</module>
-        <module>netty-protobuf</module>
         <module>netty-websocket-server</module>
+        <module>netty-protobuf</module>
         <module>netty-rpc</module>
         <module>netty-binary-decode</module>
         <module>netty-fast-protocol</module>
